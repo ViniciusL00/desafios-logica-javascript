@@ -1,53 +1,98 @@
-# Desafio-logica-programação-javascript-1.
-# Primeiro Desafio de logica de programação com JavaScript.
- 
-1.Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
+# 🧠 Desafio de Lógica de Programação com JavaScript (1)
 
- alert('Seja bem-vindo ao nosso site :)');
+---
 
-2.Declare uma variável chamada nome e atribua a ela o valor "Lua".
+## ✅ Passo 1: Alerta de boas-vindas
 
- let nome = 'Lua';
- console.log(nome);
+```javascript
+alert('Seja bem-vindo ao nosso site :)');
+```
 
-3.Crie uma variável chamada idade e atribua a ela o valor 25.
+---
 
- let idade = 25;
- console.log(idade);
+## 👤 Passo 2: Declarando uma variável de nome
 
-4.Defina uma variável numeroDeVendas e atribua a ela o valor 50.
+```javascript
+let nome = 'Lua';
+console.log(nome);
+```
 
- let numeroDeVendas = 50;
- console.log(numeroDeVendas);
+---
 
-5.Defina uma variável saldoDisponivel e atribua a ela o valor 1000.
+## 🎂 Passo 3: Declarando a idade
 
- let saldoDisponivel = 1000;
- console.log(saldoDisponivel);
+```javascript
+let idade = 25;
+console.log(idade);
+```
 
-6.Exiba um alerta com o texto "Erro! Preencha todos os campos"
+---
 
- alert('Erro! Preencha todos os campos');
+## 💰 Passo 4: Número de vendas
 
-7.Declare uma variável chamada mensagemDeErro e atribua a ela o valor "Erro! Preencha todos os campos" Agora exiba um alerta com o valor da variável mensagemDeErro.
+```javascript
+let numeroDeVendas = 50;
+console.log(numeroDeVendas);
+```
 
- let mensagemDeErro = 'Erro, preencha todos os campos';
- alert(mensagemDeErro);
+---
 
-8.Use um prompt para perguntar o nome do usuário e armazená-lo na variável nome.
+## 💸 Passo 5: Saldo disponível
 
- let seuNome = prompt('Digite seu nome');
- alert(seuNome);
+```javascript
+let saldoDisponivel = 1000;
+console.log(saldoDisponivel);
+```
 
-9.Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.
+---
 
- let suaIdade = prompt('Digite sua idade');
- alert(suaIdade);
+## ❌ Passo 6: Alerta de erro direto
 
-10.Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
+```javascript
+alert('Erro! Preencha todos os campos');
+```
 
- if (suaIdade >= 18) {
-     alert('Pode tirar a habilitação');
- }
+---
 
-Desafio concluído!
+## 📛 Passo 7: Usando variável para exibir erro
+
+```javascript
+let mensagemDeErro = 'Erro, preencha todos os campos';
+alert(mensagemDeErro);
+```
+
+---
+
+## 🧾 Passo 8: Pegando nome do usuário via prompt
+
+```javascript
+let seuNome = prompt('Digite seu nome');
+alert(seuNome);
+```
+
+---
+
+## 📅 Passo 9: Pegando idade do usuário via prompt
+
+```javascript
+let suaIdade = prompt('Digite sua idade');
+alert(suaIdade);
+```
+
+---
+
+## 🏎️ Passo 10: Verificando se pode tirar habilitação
+
+```javascript
+if (suaIdade >= 18) {
+    alert('Pode tirar a habilitação');
+}
+```
+
+---
+
+## 🏁 Conclusão
+
+- ✅ Como usar `alert` e `prompt`
+- ✅ Como declarar e manipular variáveis
+- ✅ Como usar estruturas condicionais básicas
