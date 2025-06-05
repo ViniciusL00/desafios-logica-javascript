@@ -74,6 +74,6 @@ alert(`Seja bem-vindo ${nome}`);
 
 ---
 
-## ✅ Conclusão
+## 🏁 Conclusão
 
 - ✅ Neste segundo desafio, exploramos estruturas condicionais e interações com o usuário através de `prompt`, `alert` e `console.log`.
