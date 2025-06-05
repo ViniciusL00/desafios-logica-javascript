@@ -63,6 +63,6 @@ while (contador <= numero) {
 
 ---
 
-## ✅ Conclusão
+## 🏁 Conclusão
 
 - ✅ Neste desafio, Usamos loops `while` para fazer contagens progressivas e regressivas com JavaScript. Saber controlar o fluxo de repetição é essencial para criar programas dinâmicos, como cronômetros, animações, jogos e muito mais.
