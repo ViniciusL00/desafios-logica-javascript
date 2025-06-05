@@ -1,35 +1,68 @@
-# desafio-logica-programação-javascript-3.
-# Terceiro desafio de logica de programação com javascript.
- 
-1- Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+# 🧠 Terceiro Desafio de Lógica de Programação com JavaScript (3)
 
-**Objetivo:** let contador = 1; // inicializa o contador em 1
+---
 
-while (contador <= 10) {// Loop enquanto o contador for maior ou igual a 1
-    console.log (contador); // mostra o valor do contador no console
-    contador = contador +1; // incrementa o contador} **Completo.**
+## 🔢 Contador de 1 até 10
 
-2- Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+**Objetivo:** Criar um contador que comece em 1 e vá até 10 usando `while`.
 
-**Objetivo:** let contador = 10; // inicializa o contador com 10
+```javascript
+let contador = 1;
 
-while (contador >= 1) { // loop do contador for maior ou igual a 1
-    console.log (contador); // mostra o valor do contador no console
-    contador = contador -1; // incrementa o contador} **Completo.**
+while (contador <= 10) {
+    console.log(contador);
+    contador = contador + 1;
+}
+```
 
-3- Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+---
 
-**Objetivo:** let numero = parseInt(prompt('Digite um numero para iniciar a contagem regressiva')); // inicia a contagem regressiva
+## 🔁 Contador de 10 até 1
 
-while (numero >= 0){
-    console.log(numero); // exibe o numero atual
-    numero = numero -1; // incrementa o contador} **Completo.**
+**Objetivo:** Criar um contador que comece em 10 e vá até 0 usando `while`.
 
-4- Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+```javascript
+let contador = 10;
 
-**Objetivo:** let numero = parseInt(prompt('Digite um numero para iniciar a contagem até')) // inicia a contagem regressiva
+while (contador >= 1) {
+    console.log(contador);
+    contador = contador - 1;
+}
+```
+
+---
+
+## ⏳ Contagem Regressiva Personalizada
+
+**Objetivo:** Pedir um número e contar regressivamente até 0 usando `while`.
+
+```javascript
+let numero = parseInt(prompt('Digite um número para iniciar a contagem regressiva'));
+
+while (numero >= 0) {
+    console.log(numero);
+    numero = numero - 1;
+}
+```
+
+---
+
+## 📈 Contagem Progressiva Personalizada
+
+**Objetivo:** Pedir um número e contar de 0 até ele usando `while`.
+
+```javascript
+let numero = parseInt(prompt('Digite um número para iniciar a contagem até'));
 let contador = 0;
 
 while (contador <= numero) {
-    console.log(contador); // exibe o numero atual
-    contador = contador +1; // incrementa o contador} **Completo:**
+    console.log(contador);
+    contador = contador + 1;
+}
+```
+
+---
+
+## ✅ Conclusão
+
+- ✅ Neste desafio, Usamos loops `while` para fazer contagens progressivas e regressivas com JavaScript. Saber controlar o fluxo de repetição é essencial para criar programas dinâmicos, como cronômetros, animações, jogos e muito mais.
