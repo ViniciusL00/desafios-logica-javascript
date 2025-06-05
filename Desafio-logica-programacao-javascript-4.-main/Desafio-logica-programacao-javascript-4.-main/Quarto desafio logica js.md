@@ -147,8 +147,8 @@ console.log(numeroAleatorio);
 
 ## 🏁 Conclusão
 
-- Usar `console.log`, `alert` e `prompt`;
-- Declarar e manipular variáveis;
-- Utilizar estruturas condicionais `if/else`;
-- Usar laços de repetição com `while`;
-- Trabalhar com `Math.random()` para gerar números aleatórios.
+- ✅ Usar `console.log`, `alert` e `prompt`;
+- ✅ Declarar e manipular variáveis;
+- ✅ Utilizar estruturas condicionais `if/else`;
+- ✅ Usar laços de repetição com `while`;
+- ✅ Trabalhar com `Math.random()` para gerar números aleatórios.
