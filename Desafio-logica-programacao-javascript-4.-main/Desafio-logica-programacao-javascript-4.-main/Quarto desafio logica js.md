@@ -107,7 +107,7 @@ while (numero <= 10) {
 ## 🎓 Verificando Nota (Aprovado ou Reprovado)
 
 ```javascript
-let nota = 20;
+let nota = 10;
 
 if (nota >= 7) {
   console.log('Aprovado');
