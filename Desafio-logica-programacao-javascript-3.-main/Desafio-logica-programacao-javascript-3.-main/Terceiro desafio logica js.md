@@ -19,7 +19,7 @@ while (contador <= 10) {
 
 ## 🔁 Contador de 10 até 1
 
-**Objetivo:** Criar um contador que comece em 10 e vá até 0 usando `while`.
+**Objetivo:** Criar um contador que comece em 10 e vá até 1 usando `while`.
 
 ```javascript
 let contador = 10;
